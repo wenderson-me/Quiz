@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.quiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/background_inicio"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/background_inicio"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="br.com.quiz.model.SplashScreen" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="br.com.quiz.model.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="br.com.quiz.controller.QuizActivity" />
+        <activity android:name="br.com.quiz.model.RespostaActivity" />
+    </application>
+
+</manifest>

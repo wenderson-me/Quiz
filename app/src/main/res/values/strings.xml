@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="btnjogar">btnJogar</string>
+    <string name="jogar">Jogar</string>
+    <string name="responder">Responder</string>
+    <string name="jogarnovamente">JogarNovamente</string>
+    <string name="acerto">acerto</string>
+    <string name="jogar_novamente">jogar novamente</string>
+</resources>
